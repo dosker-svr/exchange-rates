@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+#spring:
+#  application:
+#    name: exchange-rates
+#
+
+app:
+  open-exchange-rates:
+    appId: 49960453b6ee4bd3b5f76a2277ffcf11
+  feign:
+    config:
+      name: openexchangerates
+      url: https://openexchangerates.org/api
+
+codes-rate:
+  840: USD
+  usd: 840
+  eur: 978
+  gbp: 826
+  cny: 156
+  jpy: 392
+  #aud+cad+chf+sek+mxn+nzd+sgd+hkd+nok
