@@ -10,8 +10,4 @@ public interface GiphyClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/random")
     Object getRandomGif(@RequestParam String api_key, @RequestParam String tag);
-
-//    @RequestMapping(method = RequestMethod.GET, value = "/historical/{date}.json")
-//    ResponseExchangeRates getHistoricalRates(@RequestParam String app_id, @PathVariable String date, @RequestParam(required = false) String base, @RequestParam String symbols);
-
 }
