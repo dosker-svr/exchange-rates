@@ -9,16 +9,21 @@ server:
 app:
   open-exchange-rates:
     appId: 49960453b6ee4bd3b5f76a2277ffcf11
-  feign:
     config:
       name: openexchangerates
       url: https://openexchangerates.org/api
 
-codes-rate:
-  840: USD
-  usd: 840
-  eur: 978
-  gbp: 826
-  cny: 156
-  jpy: 392
-  #aud+cad+chf+sek+mxn+nzd+sgd+hkd+nok
+  giphy:
+    giphy-app-id: U5Syl1q5BUZc3Hj7ywUG4VQsUm9anQ3Q
+    config:
+      name: giphy
+      url: api.giphy.com/v1/gifs
+#    tag: rich
+
+  code-rates:
+    840: USD
+    978: EUR
+    826: GBP
+    156: CNY
+    392: JPY
+    #aud+cad+chf+sek+mxn+nzd+sgd+hkd+nok
