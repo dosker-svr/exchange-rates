@@ -1,6 +1,5 @@
 package com.example.exchangerates.pojo;
 
-import com.example.exchangerates.pojo.subobject.Rates;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
